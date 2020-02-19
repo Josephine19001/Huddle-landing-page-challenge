@@ -5,6 +5,7 @@ text-align: center;
 color: #40514E; 
 font-family: 'Merriweather', serif;
 font-size: 1rem;
+line-height: 1.5rem;
 }
 
 
@@ -53,11 +54,103 @@ line-height: 1.5rem;
     width: auto;
 }
 .followers{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-bottom: 8rem; 
 }
 .communities{
-   
+   margin-left: 250px;
 }
 .messages{
-    float: left;
+   margin-left: 350px;
+}
+.grow{
+    display: flex;
+}
+.grow-image{
+    width: 30%;
+    margin-right: 150px;
+
+}
+.grow-row{
+    text-align: left;
+    margin-right: 150px;
+    padding: 100px;
+}
+.convo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.convo-image{
+    width: 30%;
+    margin-left: 150px;
+}
+.convo-row{
+    text-align: left;
+    padding: 100px;
+    margin-right: 150px;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+}
+.users-image{
+    width: 30%;
+    margin-right: 150px;
+}
+.users-row{
+    text-align: left;
+    margin-left: 150px;
+    padding: 100px;
+}
+.ready{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: rgb(13, 48, 58);
+    color: white;
+    display: flex;
+    padding: 100px 0;
+    text-align: left;
+    height: 200px;
+    
+}
+.subscribe-button{
+    border: 1px solid rgb(230, 69, 144);
+    border-radius: 0.3rem;
+    padding: 8px 15px;
+    background-color: rgb(230, 69, 144);
+    color: white;
+}
+#logo{
+    filter: brightness(0) invert(1);
+}
+.subscribe-input{
+    border-style: none;
+    border-radius: 0.3rem;
+    padding: 8px 40px;
+}
+.subscribe,.contact-info{
+    padding:10px 150px ;
+}
+.socialmedia-link{
+    filter: brightness(0) invert(1);
+   margin-top: 3rem;
+}
+.phone,.email{
+    width: 4%;
+}
+#facebook,#instagram,#twitter{
+    width: 7%;
+    
+}
+footer{
+    color: teal;
+    
+}
+.footer-link{
+text-decoration-line: none;
+color: teal;
 }
